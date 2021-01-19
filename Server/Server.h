@@ -145,9 +145,9 @@ public:
 
 	void startServer(int);
 	static void *process_helper(void *context);
-	void* process(void);
+	void* process();
 	static void *ping_helper(void *context);
-	void* ping(void);
+	void* ping();
 
 };
 
