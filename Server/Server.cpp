@@ -142,7 +142,7 @@ void* Server::ping_helper(void* context)
 	return ((Server *)context)->ping();
 }
 
-void* Server::ping(void)
+void* Server::ping()
 {
 	while (true)
 	{
@@ -191,7 +191,7 @@ void* Server::process_helper(void* context)
 	return ((Server *)context)->process();
 }
 
-void* Server::process(void)
+void* Server::process()
 {
 	while(true)
 	{
